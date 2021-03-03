@@ -5,7 +5,7 @@ const data = {
       name: 'Women Dress',
       category: 'Dresses',
       image: '/img/dress1.png',
-      price: 120,
+      price: 90,
       brand: 'xmen',
       rating: 4.5,
       numReviews: 10,
@@ -27,7 +27,7 @@ const data = {
       name: 'Women Pants',
       category: 'Pants',
       image: '/img/dress3.png',
-      price: 120,
+      price: 60,
       brand: 'xmen',
       rating: 4.8,
       numReviews: 10,
@@ -49,7 +49,7 @@ const data = {
       name: 'Women Dress',
       category: 'Winter Coats',
       image: '/img/dress5.png',
-      price: 120,
+      price: 130,
       brand: 'Style',
       rating: 4.5,
       numReviews: 10,
@@ -60,7 +60,7 @@ const data = {
       name: 'Men Dress',
       category: 'mystyle',
       image: '/img/dress6.png',
-      price: 120,
+      price: 400,
       brand: 'xmen',
       rating: 4.5,
       numReviews: 10,
@@ -68,3 +68,5 @@ const data = {
     },
   ],
 };
+
+export default data;
