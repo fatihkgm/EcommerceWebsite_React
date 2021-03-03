@@ -6,11 +6,13 @@ function App() {
     <div className="grid-container">
       <header className="row">
         <div>
-          <img className="brand" src="./img/logo.png" />
+          <a href="/">
+            <img className="brand" src="./img/logo.png" />
+          </a>
         </div>
         <div>
-          <a href="cart.html">Cart</a>
-          <a href="signin.html">Sign In</a>
+          <a href="/cart">Cart</a>
+          <a href="/login">Log In</a>
         </div>
       </header>
       <main>
