@@ -66,6 +66,17 @@ const data = {
       numReviews: 10,
       description: 'quilfied by thekgm',
     },
+    {
+      _id: '6',
+      name: 'Men Dress',
+      category: 'mystyle',
+      image: '/img/dress7.png',
+      price: 400,
+      brand: 'xmen',
+      rating: 4.5,
+      numReviews: 10,
+      description: 'quilfied by thekgm',
+    },
   ],
 };
 
