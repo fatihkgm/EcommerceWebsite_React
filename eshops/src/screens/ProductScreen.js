@@ -10,7 +10,7 @@ export default function ProductScreen(props) {
   }
   return (
     <div>
-      <Link to="/">Bacto to Items</Link>
+      <Link to="/">Back to Items</Link>
       <div className="row top">
         <div className="col-2">
           <img className="large" src={product.image} alt={product.name}></img>
