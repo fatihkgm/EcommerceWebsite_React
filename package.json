@@ -5,7 +5,7 @@
   "description": "ecommerce website",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --watch data --exec node --experimental-modules data/server.js"
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
   },
   "repository": {
     "type": "git",

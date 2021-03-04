@@ -1,15 +1,23 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 import Product from '../components/Product';
-import data from '../../../data/data';
 
 export default function HomeScreen() {
-    return (
-        <div>
-            <div className="row center">
-              {data.products.map(product => (
-                <Product key={product._id} product={product}></Product>
-              ))}
-            </div>
-          </div>
-    )
+  const [products, setProducts] = useState([]);
+  useEffect(() => {
+    const fecthData = async () => {
+      const { data } = await axios.get('/api/products');
+      setProducts(data);
+    };
+    fecthData();
+  }, []);
+  return (
+    <div>
+      <div className="row center">
+        {products.map(product => (
+          <Product key={product._id} product={product}></Product>
+        ))}
+      </div>
+    </div>
+  );
 }

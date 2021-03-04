@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Rate from '../components/Rate';
-import data from '../../../data/data';
+import data from '../data';
 
 export default function ProductScreen(props) {
   const product = data.products.find(x => x._id === props.match.params.id);
   if (!product) {
-    return <div> Sorry this product sold out...!</div>;
+    return <div> Product Not Found</div>;
   }
   return (
     <div>
@@ -21,7 +21,10 @@ export default function ProductScreen(props) {
               <h1>{product.name}</h1>
             </li>
             <li>
-              <Rate rating={product.rating} reviewNumbers={product.reviewNumbers}></Rate>
+              <Rate
+                rating={product.rating}
+                reviewNumbers={product.reviewNumbers}
+              ></Rate>
             </li>
             <li>Price: ${product.price}</li>
             <li>
