@@ -2,7 +2,7 @@ const data = {
   products: [
     {
       _id: '1',
-      name: 'Women Dress',
+      name: 'Easy Dress',
       category: 'Dresses',
       image: '/img/dress1.png',
       price: 90,
@@ -13,8 +13,8 @@ const data = {
     },
     {
       _id: '2',
-      name: 'Women HandBag',
-      category: 'Bags',
+      name: 'Fatih Style 😸',
+      category: 'Fatih',
       image: '/img/dress2.png',
       price: 80,
       brand: 'xmen',
@@ -24,7 +24,7 @@ const data = {
     },
     {
       _id: '3',
-      name: 'Women Pants',
+      name: 'Short Pants',
       category: 'Pants',
       image: '/img/dress3.png',
       price: 60,
@@ -35,8 +35,8 @@ const data = {
     },
     {
       _id: '4',
-      name: 'Men Dress',
-      category: 'Shirts',
+      name: 'Men Coat',
+      category: 'Coat',
       image: '/img/dress4.png',
       price: 120,
       brand: 'Winter Coats',
@@ -46,8 +46,8 @@ const data = {
     },
     {
       _id: '5',
-      name: 'Women Dress',
-      category: 'Winter Coats',
+      name: 'Casual',
+      category: 'Casual',
       image: '/img/dress5.png',
       price: 130,
       brand: 'Style',
@@ -57,8 +57,8 @@ const data = {
     },
     {
       _id: '6',
-      name: 'Men Dress',
-      category: 'mystyle',
+      name: 'Women Short Skirt',
+      category: 'Skirt',
       image: '/img/dress6.png',
       price: 400,
       brand: 'xmen',
@@ -68,8 +68,8 @@ const data = {
     },
     {
       _id: '7',
-      name: 'Men Dress',
-      category: 'mystyle',
+      name: 'Fatih Style 😸',
+      category: 'Fatih',
       image: '/img/dress7.png',
       price: 400,
       brand: 'xmen',
@@ -79,8 +79,8 @@ const data = {
     },
     {
       _id: '8',
-      name: 'Men Dress',
-      category: 'mystyle',
+      name: 'Wemon Work Dress',
+      category: 'work',
       image: '/img/dress8.png',
       price: 400,
       brand: 'xmen',
@@ -90,8 +90,8 @@ const data = {
     },
     {
       _id: '9',
-      name: 'Men Dress',
-      category: 'mystyle',
+      name: 'Maxi Dress',
+      category: 'Dress',
       image: '/img/dress9.png',
       price: 400,
       brand: 'xmen',
@@ -101,8 +101,8 @@ const data = {
     },
     {
       _id: '9',
-      name: 'Men Dress',
-      category: 'mystyle',
+      name: 'Women Casual Dress',
+      category: 'casual',
       image: '/img/dress10.png',
       price: 400,
       brand: 'xmen',
