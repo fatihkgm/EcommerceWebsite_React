@@ -88,7 +88,7 @@ img.medium {
 }
 
 /* Card */
-.cardBox {
+.card {
   border: 0.1rem #c0c0c0 solid;
   border-radius: 1rem;
   margin: 1rem;
@@ -110,4 +110,7 @@ img.medium {
 .rating span {
   color: #f0c040;
   margin: 0.1rem;
+}
+.rating span:last-child {
+  color: #404040;
 }

@@ -8,7 +8,7 @@ const data = {
       price: 90,
       brand: 'xmen',
       rating: 4.5,
-      numReviews: 10,
+      reviewNumbers: 3,
       description: 'quilfied by thekgm',
     },
     {
@@ -19,7 +19,7 @@ const data = {
       price: 80,
       brand: 'xmen',
       rating: 4.0,
-      numReviews: 10,
+      reviewNumbers: 2,
       description: 'quilfied by thekgm',
     },
     {
@@ -30,7 +30,7 @@ const data = {
       price: 60,
       brand: 'xmen',
       rating: 4.8,
-      numReviews: 10,
+      reviewNumbers: 1,
       description: 'quilfied by thekgm',
     },
     {
@@ -41,7 +41,7 @@ const data = {
       price: 120,
       brand: 'Winter Coats',
       rating: 4.5,
-      numReviews: 10,
+      reviewNumbers: 5,
       description: 'quilfied by thekgm',
     },
     {
@@ -52,7 +52,7 @@ const data = {
       price: 130,
       brand: 'Style',
       rating: 4.5,
-      numReviews: 10,
+      reviewNumbers: 6,
       description: 'quilfied by thekgm',
     },
     {
@@ -62,8 +62,8 @@ const data = {
       image: '/img/dress6.png',
       price: 400,
       brand: 'xmen',
-      rating: 4.5,
-      numReviews: 10,
+      rating: 3.5,
+      reviewNumbers: 3,
       description: 'quilfied by thekgm',
     },
     {
@@ -74,7 +74,7 @@ const data = {
       price: 400,
       brand: 'xmen',
       rating: 4.5,
-      numReviews: 10,
+      reviewNumbers: 7,
       description: 'quilfied by thekgm',
     },
     {
@@ -85,7 +85,7 @@ const data = {
       price: 400,
       brand: 'xmen',
       rating: 4.5,
-      numReviews: 10,
+      reviewNumbers: 1,
       description: 'quilfied by thekgm',
     },
     {
@@ -95,8 +95,8 @@ const data = {
       image: '/img/dress9.png',
       price: 400,
       brand: 'xmen',
-      rating: 4.5,
-      numReviews: 10,
+      rating: 3,
+      reviewNumbers: 6,
       description: 'quilfied by thekgm',
     },
     {
@@ -106,8 +106,8 @@ const data = {
       image: '/img/dress10.png',
       price: 400,
       brand: 'xmen',
-      rating: 4.5,
-      numReviews: 10,
+      rating: 4,
+      reviewNumbers: 8,
       description: 'quilfied by thekgm',
     },
   ],
