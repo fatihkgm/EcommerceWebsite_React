@@ -10,7 +10,7 @@ const data = {
       brand: 'xmen',
       rating: 4.5,
       reviewNumbers: 3,
-      description: 'quilfied by thekgm',
+      description: 'Quilfied by thekgm',
     },
     {
       _id: '2',
@@ -22,7 +22,7 @@ const data = {
       brand: 'xmen',
       rating: 4.0,
       reviewNumbers: 2,
-      description: 'quilfied by thekgm',
+      description: 'Quilfied by thekgm',
     },
     {
       _id: '3',
@@ -34,7 +34,7 @@ const data = {
       brand: 'xmen',
       rating: 4.8,
       reviewNumbers: 1,
-      description: 'quilfied by thekgm',
+      description: 'Quilfied by thekgm',
     },
     {
       _id: '4',
@@ -46,7 +46,7 @@ const data = {
       brand: 'Winter Coats',
       rating: 4.5,
       reviewNumbers: 5,
-      description: 'quilfied by thekgm',
+      description: 'Quilfied by thekgm',
     },
     {
       _id: '5',
@@ -58,7 +58,7 @@ const data = {
       brand: 'Style',
       rating: 4.5,
       reviewNumbers: 6,
-      description: 'quilfied by thekgm',
+      description: 'Quilfied by thekgm',
     },
     {
       _id: '6',
@@ -70,7 +70,7 @@ const data = {
       brand: 'xmen',
       rating: 3.5,
       reviewNumbers: 3,
-      description: 'quilfied by thekgm',
+      description: 'Quilfied by thekgm',
     },
     {
       _id: '7',
@@ -82,7 +82,7 @@ const data = {
       brand: 'xmen',
       rating: 4.5,
       reviewNumbers: 7,
-      description: 'quilfied by thekgm',
+      description: 'Quilfied by thekgm',
     },
     {
       _id: '8',
@@ -94,7 +94,7 @@ const data = {
       brand: 'xmen',
       rating: 4.5,
       reviewNumbers: 1,
-      description: 'quilfied by thekgm',
+      description: 'Quilfied by thekgm',
     },
     {
       _id: '9',
@@ -106,7 +106,7 @@ const data = {
       brand: 'xmen',
       rating: 3,
       reviewNumbers: 6,
-      description: 'quilfied by thekgm',
+      description: 'Quilfied by thekgm',
     },
     {
       _id: '9',
@@ -118,7 +118,7 @@ const data = {
       brand: 'xmen',
       rating: 4,
       reviewNumbers: 8,
-      description: 'quilfied by thekgm',
+      description: 'Quilfied by thekgm',
     },
   ],
 };
