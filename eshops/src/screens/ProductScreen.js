@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Rate from '../components/Rate';
-import data from '../data';
+import data from '../../../data/data';
 
 export default function ProductScreen(props) {
   const product = data.products.find(x => x._id === props.match.params.id);

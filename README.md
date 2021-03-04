@@ -11,3 +11,5 @@ npm i react-router-dom
 cd EcommorceWebsite
 npm init
 npm i express
+
+npm i --save-dev nodemon
