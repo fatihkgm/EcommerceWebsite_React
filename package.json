@@ -1,5 +1,6 @@
 {
   "name": "ecommercewebsite_react",
+  "type": "module",
   "version": "1.0.0",
   "description": "ecommerce website",
   "main": "index.js",
