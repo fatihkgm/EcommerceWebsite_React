@@ -1,5 +1,8 @@
 import React from 'react';
 import data from './data';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Button } from 'react-bootstrap';
+
 
 function App() {
   return (
@@ -19,7 +22,7 @@ function App() {
         <div>
           <div className="row center">
             {data.products.map(product => (
-              <div key={product._id} className="card">
+              <div key={product._id} className="cardBox">
                 <a href={`/product/${product._id}`}>
                   <img
                     className="medium"
@@ -55,7 +58,7 @@ function App() {
           </div>
         </div>
       </main>
-      <footer className="row center">All right reserved</footer>
+      <footer className="row center">The KGM programming</footer>
     </div>
   );
 }

@@ -28,7 +28,7 @@ body {
 }
 header {
   grid-area: header;
-  background-color: #203040;
+  background-color: #0c0b0b;
 }
 main {
   grid-area: main;
@@ -88,7 +88,7 @@ img.medium {
 }
 
 /* Card */
-.card {
+.cardBox {
   border: 0.1rem #c0c0c0 solid;
   border-radius: 1rem;
   margin: 1rem;
